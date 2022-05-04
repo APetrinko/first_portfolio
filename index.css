@@ -1,0 +1,24 @@
+html {
+    background-color: #f9fafa;
+}
+
+.photo-zoom {
+    height: 300px;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    width: 50%;
+}
+.wrap{
+    overflow: hidden;
+}
+.wrap:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
