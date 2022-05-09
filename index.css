@@ -10,16 +10,22 @@ margin: auto;
 }
 p{
     color: black;
+    font-size: 11px;
+    margin: auto;
 }
 .header-text{
     display: flex;
     color: black;
 }
+.initials{
+    margin: 20px 10px;
+    font-size: 25px;
+}
 .vertical-line{
-    border-left: 6px solid gray;
-    height: 14px;
+    border-left: 1px solid gray;
+    height: 18px;
     margin: auto;
-    font-size: 10px;
+    
 }
 :root {
     font-family: 'Montserrat', sans-serif;
@@ -29,15 +35,18 @@ p{
     display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
+ justify-content: center;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  margin-top: 8px
 }
 .imgs{
-    margin-left: 100px;
-    margin-top: 50px;
     overflow: hidden;
 }
 .imgs:hover img{
 transform: scale(1.2);
+
 }
 .imgs img{
     transition: transform 0.5s;
