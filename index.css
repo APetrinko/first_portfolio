@@ -3,74 +3,113 @@
 html {
     background-color: #f9fafa;
 }
-header{
+
+header {
     display: flex;
-justify-content: space-between;
-margin: auto;
+    justify-content: space-between;
+    margin: auto;
 }
-a{
+
+a {
     font-size: 13px;
     color: black;
     padding: 0 10px;
     text-decoration: none;
-    font-family:'Montserrat', sans-serif ;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     font-weight: bold;
 }
-a:hover{
-    color: rgb(170,58,58);
+
+a:hover {
+    color: rgb(170, 58, 58);
 }
 
-.header__nav{
+.header__nav {
     margin: 20px 10px;
-    color:black
+    color: black;
+    
 }
-p{
+
+p {
     color: black;
     font-size: 11px;
     margin: auto;
 }
-.header-text{
+
+.header-text {
     display: flex;
     color: black;
 }
-.initials{
+
+.initials {
     margin: 20px 10px;
     font-size: 25px;
 }
-.vertical-line{
+
+.vertical-line {
     border-left: 1px solid gray;
     height: 18px;
     margin: auto;
-    
-}
-:root {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-.content{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
- justify-content: center;
-  object-fit: cover;
-  margin-top: 8px;
-  padding: 0 4px;
-  margin-top: 8px
-}
-.imgs{
-    overflow: hidden;
-}
-.imgs:hover img{
-transform: scale(1.2);
 
 }
-.imgs img{
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    margin-top: 8px
+}
+
+.imgs {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.imgs:hover img {
+    transform: scale(1.1);
+
+}
+
+.imgs img {
     transition: transform 0.5s;
 }
 
-h2{ 
+h2 {
     text-align: center;
     font-size: 30px;
-    letter-spacing: 0.5em
+    letter-spacing: 0.5em;
+    padding-top: 70px;
+
+}
+.carousel-item{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.carousel-control-prev-icon {
+    display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  transform:  rotate(-50deg);
+}
+
+.carousel-control-next-icon {
+    display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  transform:  rotate(50deg);
 }
